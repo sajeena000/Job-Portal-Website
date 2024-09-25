@@ -2,7 +2,7 @@
 <html class="no-js" lang="en_AU">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>JobAvengers | Find Best Jobs</title>
+	<title>Jobportal | Find Best Jobs</title>
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no" />
 	<meta name="HandheldFriendly" content="True" />
@@ -18,7 +18,7 @@
 <header>
 	<nav class="navbar navbar-expand-lg navbar-light bg-white shadow py-3">
 		<div class="container">
-			<a class="navbar-brand" href="{{ route('home') }}">JobAvengers</a>
+			<a class="navbar-brand" href="{{ route('home') }}">Jobportal</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -86,7 +86,7 @@
 
 <footer class="bg-dark py-3 bg-2">
 <div class="container">
-    <p class="text-center text-white pt-3 fw-bold fs-6">© 2024 JobAvengers, all right reserved</p>
+    <p class="text-center text-white pt-3 fw-bold fs-6">© 2024 Jobportal, all right reserved</p>
 </div>
 </footer> 
 {{-- <footer class="footer">

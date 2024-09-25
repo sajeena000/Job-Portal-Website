@@ -122,6 +122,30 @@
                             @error('deadline')
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
+                            <script>
+                                // Get tomorrow's date
+                                var tomorrow = new Date();
+                                tomorrow.setDate(tomorrow.getDate() + 1);
+                            
+                                // Convert to the format required by datetime-local input
+                                var year = tomorrow.getFullYear();
+                                var month = tomorrow.getMonth() + 1;
+                                var day = tomorrow.getDate();
+                                var hours = '00'; // Set to the beginning of the day
+                                var minutes = '00'; // Set to the beginning of the day
+                            
+                                // Add leading zero if needed
+                                if (month < 10) {
+                                    month = '0' + month;
+                                }
+                                if (day < 10) {
+                                    day = '0' + day;
+                                }
+                            
+                                // Set the minimum value for the datetime-local input (beginning of tomorrow)
+                                var minDateTime = year + '-' + month + '-' + day + 'T' + hours + ':' + minutes;
+                                document.getElementById('deadline').min = minDateTime;
+                            </script>
                         </div>
 
                         <div class="mb-4">

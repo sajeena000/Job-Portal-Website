@@ -49,6 +49,8 @@
     </div>
 </section>
 @endsection
+
+
 @section('customJs')
 <script type="text/javascript">
 $("#userForm").submit(function(e){
@@ -152,4 +154,3 @@ $("#changePasswordForm").submit(function(e){
 });
 </script>
 @endsection
-

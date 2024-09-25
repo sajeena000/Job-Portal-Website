@@ -9265,8 +9265,8 @@ button.btn-secondary:hover, button.btn-secondary:focus, .btn.btn-secondary:hover
   color: #ffffff;
 }
 button.btn-outline-primary, .btn.btn-outline-primary {
-  color: #A8DF8E;
-  border: 2px solid #A8DF8E;
+  color: #198754;
+  border: 2px solid #198754;
 }
 button.btn-outline-primary:hover, button.btn-outline-primary:focus, .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus {
   background: transparent;

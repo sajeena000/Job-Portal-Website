@@ -86,9 +86,6 @@ Route::group(['prefix' => 'account'], function () {
     Route::group(['middleware' => 'guest'], function(){
         Route::get('/register', [AccountController::class, 'registration'])->name('account.registration');
         Route::post('/process-register', [AccountController::class, 'processRegistration'])->name('account.processRegistration');
-    
-    
-
         Route::get('/login',[AccountController::class,'login'])->name('account.login');
         Route::post('/authenticate',[AccountController::class,'authenticate'])->name('account.authenticate');
     });
