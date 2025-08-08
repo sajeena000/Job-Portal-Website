@@ -65,3 +65,4 @@ A simple online job portal to connect job seekers with employers.
 - Access phpMyAdmin: `http://localhost/phpmyadmin`
 - Database name: `job_portal`
 - Manage users, jobs, and applications through phpMyAdmin interface
+
